@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game\\Pokemon game.csproj",
+      "projectUniqueName": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon game.csproj",
       "projectName": "Pokemon game",
-      "projectPath": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game\\Pokemon game.csproj",
+      "projectPath": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon game.csproj",
       "packagesPath": "C:\\Users\\Miche\\.nuget\\packages\\",
-      "outputPath": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game\\obj\\",
+      "outputPath": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
