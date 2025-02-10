@@ -19,3 +19,11 @@ C:\school\2e jaar\Pokemon game\obj\Debug\net8.0\Pokemon game.csproj.CoreCompileI
 C:\school\2e jaar\Pokemon game\obj\Debug\net8.0\Pokemon game.dll
 C:\school\2e jaar\Pokemon game\obj\Debug\net8.0\refint\Pokemon game.dll
 C:\school\2e jaar\Pokemon game\obj\Debug\net8.0\Pokemon game.pdb
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.GeneratedMSBuildEditorConfig.editorconfig
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.AssemblyInfoInputs.cache
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.AssemblyInfo.cs
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.csproj.CoreCompileInputs.cache
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.sourcelink.json
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.dll
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\refint\Pokemon game.dll
+C:\school\2e jaar\Pokemon-fighting-simulator\obj\Debug\net8.0\Pokemon game.pdb

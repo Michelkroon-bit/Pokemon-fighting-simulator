@@ -1,1 +1,10 @@
 Hello world
+
+
+Why would you want to write you code in a object-oriented programming language?:
+
+Well Objects are reusable and can be used in different ways for example for storing data objects are also easier to make sense off because they're seperaed in different files unlike the other non object-oriented programming language like python where most of your code is in one or two files which piles up quickly and can become unreadable it also gives a clean look on your code for outside users because a object is named to what it's used for
+
+
+What's the difference between a class and an object?
+A class is used to define the structural basis and behavior of objects while objects are mostly used for representing different specific entity's in your program classes are also typically defined once while each is a unique class instance 

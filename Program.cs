@@ -15,22 +15,22 @@ using Pokemons;
     Console.WriteLine("Hello traveler welcome to the pokemon battle simulator");
     Console.WriteLine("Press enter to continue... ");
     Console.ReadKey();
-    var Weedle = new Pokemon("Charmander", "Fire", "Water", 10, 4);
 
-    //2.The player gives a name to a charmander.
-    Console.WriteLine("your have caught a new pokemon its a " + Weedle.naam);
+    var defaultName = "Charmander"; 
+    var pokemon = new Pokemon(defaultName, "Fire", "Water", 10, 4);
+//2.The player gives a name to a charmander.
+Console.WriteLine("your have caught a new pokemon its a " + Weedle.naam);
     Console.WriteLine("Press enter to continue... ");
     Console.ReadKey();
 
 while(true)
 {
-    Weedle.naam = "Charmander";
-    Console.WriteLine("Let's Give your "+Weedle.naam+" a name: ");
+    Console.WriteLine("Let's Give your "+ pokemon.naam + " a name: ");
     String Pokemon_naam = Console.ReadLine();
     Console.WriteLine("Press enter to continue... ");
-    Weedle.naam = Pokemon_naam;
+    pokemon.naam = Pokemon_naam;
     Console.ReadKey();
-    Console.WriteLine(Weedle.naam+" Thats a great name you picked there");
+    Console.WriteLine(pokemon.naam+" Thats a great name you picked there");
 
     //3. The charmander does its battle cry for ten times. 
     //5. The charmander does its battle cry for ten times.
@@ -39,7 +39,6 @@ while(true)
     for (int i = 1; i < 11; i++)
     {
         Console.WriteLine("Battle cry #" + i + "!!!!");
-        Console.ReadKey();
     }
     Console.WriteLine("Press enter to rename your pokemon or type 'X' to quit");
     string input = Console.ReadLine();
@@ -49,4 +48,6 @@ while(true)
         Console.WriteLine("Thanks for playing :)");
         break;
     }
+
+    var defaultName = "Charmander";
 };
