@@ -38,7 +38,7 @@ while(true)
     Console.WriteLine("Your pokemon does 10 battle cries");
     for (int i = 1; i < 11; i++)
     {
-        Console.WriteLine("Battle cry #" + i + "!!!!");
+        Console.WriteLine("Charmander!!!!");
         Console.ReadKey();
     }
     Console.WriteLine("Press enter to rename your pokemon or type 'X' to quit");
