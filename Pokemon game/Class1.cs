@@ -25,4 +25,4 @@ namespace Pokemons
             this.Atk = Atk;
         }
     }
-}
+};
