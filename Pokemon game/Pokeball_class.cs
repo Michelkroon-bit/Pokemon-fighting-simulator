@@ -5,15 +5,14 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace Poke_balls
+namespace Pokemon_battle_simulator
 {
-    using Pokemons;
-    public class pokeballs
+    public class pokeball
     {
         public Pokemon? ContainedPokemon { get; private set; }
         public bool IsOpen { get; private set; }
 
-        public pokeballs(Pokemon pokemon)
+        public pokeball(Pokemon pokemon)
         {
             ContainedPokemon = pokemon;
             IsOpen = false;
@@ -24,8 +23,8 @@ namespace Poke_balls
             if (ContainedPokemon != null && !IsOpen)
             {
                 IsOpen = true;
-                Console.WriteLine("You threw a pokeball " + ContainedPokemon.naam + " has been released");
-                Pokemon.battlecry(ContainedPokemon.naam);
+                Console.WriteLine(ContainedPokemon.naam + " does a battle cry ");
+                Pokemon.battlecry(ContainedPokemon.naam + "!!!!");
             }
             else
             {
@@ -34,14 +33,14 @@ namespace Poke_balls
         }
         public void ReturnPokemon()
         {
-            if (!IsOpen && ContainedPokemon != null)
+            if (IsOpen && ContainedPokemon != null)
             {
                 IsOpen = false;
-                Console.WriteLine($"{ContainedPokemon.naam} has returned to its Pokéball.");
+                   
             }
             else
             {
-                Console.WriteLine("No Pokémon to return.");
+                Console.WriteLine("No Pokémon to return or the Pokéball is already closed.");
             }
         }
     }

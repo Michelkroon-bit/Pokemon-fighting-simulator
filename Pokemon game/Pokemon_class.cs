@@ -4,17 +4,16 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Pokemons
+namespace Pokemon_battle_simulator
 {
     public class Pokemon
     {
         public string naam { get; set; }
         public string strength { get; set; }
         public string weakness  { get; set; }
-
         public int HP { get; set; }
-
         public int Atk { get; set; }
+
 
         public Pokemon(string naam ,string strength , string weakness , int HP , int Atk) 
         {

@@ -3,25 +3,22 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Poke_balls;
-using Pokemons;
-
-namespace Trainers
+namespace Pokemon_battle_simulator
 {
 
     public class trainer
     {
         public string name { get; set; }
-        public List<pokeballs> belt { get; private set; }
+        public List<pokeball> belt { get;  set; }
 
         public trainer(string name)
         {
-            name = name;
-            belt = new List<pokeballs>();
+            this.name = name;
+            belt = new List<pokeball>();
 
             for (int i = 0; i < 6; i++)
             {
-                belt.Add(new pokeballs(new Pokemon("Charmander", "Fire", "Water", 10, 4)));
+                belt.Add(new pokeball(new Pokemon("Charmander", "Fire", "Water", 10, 4)));
             }
         }
 
@@ -50,5 +47,6 @@ namespace Trainers
                 Console.WriteLine("Invalid Pokéball index!");
             }
         }
+    
     }
 }
