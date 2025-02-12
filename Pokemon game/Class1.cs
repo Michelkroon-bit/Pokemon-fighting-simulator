@@ -24,5 +24,11 @@ namespace Pokemons
             this.HP = HP;
             this.Atk = Atk;
         }
+        public static void battlecry(string name)
+        {
+            Console.WriteLine(name + "!!!!");
+            Console.ReadKey();
+        }
     }
-};
+}
+
