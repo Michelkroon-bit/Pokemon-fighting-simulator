@@ -27,7 +27,7 @@ namespace Pokemons
         public static void battlecry(string name)
         {
             Console.WriteLine(name + "!!!!");
-            Console.ReadKey();
+            Thread.Sleep(1000);
         }
     }
 }
