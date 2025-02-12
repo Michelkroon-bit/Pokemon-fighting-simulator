@@ -2,6 +2,8 @@
 using System.Reflection.Metadata;
 using System.Xml.Linq;
 using Pokemons;
+using Poke_balls;
+using Trainers;
 
 Console.WriteLine(@"                                  ,'\
     _.----.        ____         ,'  _\   ___    ___     ____
