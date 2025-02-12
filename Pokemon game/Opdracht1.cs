@@ -3,6 +3,19 @@ using System.Reflection.Metadata;
 using System.Xml.Linq;
 using Pokemons;
 
+Console.WriteLine(@"                                  ,'\
+    _.----.        ____         ,'  _\   ___    ___     ____
+_,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
+\      __    \    '-.  | /   `.  ___    |    \/    |   '-.   \ |  |
+ \.    \ \   |  __  |  |/    ,','_  `.  |          | __  |    \|  |
+   \    \/   /,' _`.|      ,' / / / /   |          ,' _`.|     |  |
+    \     ,-'/  /   \    ,'   | \/ / ,`.|         /  /   \  |     |
+     \    \ |   \_/  |   `-.  \    `'  /|  |    ||   \_/  | |\    |
+      \    \ \      /       `-.`.___,-' |  |\  /| \      /  | |   |
+       \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |
+        \_.-'       |__|    `-._ |              '-.|     '-.| |   |
+                                `'                            '-._|");
+
 Console.WriteLine("Hello traveler welcome to the pokemon battle simulator");
 Console.WriteLine("Press enter to continue... ");
 Console.ReadKey();
