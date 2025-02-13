@@ -7,12 +7,16 @@
       "RelativeMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|solutionrelative:pokemon game\\project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|c:\\school\\2e jaar\\pokemon-fighting-simulator\\pokemon game\\pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|solutionrelative:pokemon game\\pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|c:\\school\\2e jaar\\pokemon-fighting-simulator\\pokemon game\\pokemon_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|solutionrelative:pokemon game\\pokemon_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|c:\\school\\2e jaar\\pokemon-fighting-simulator\\pokemon game\\pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|solutionrelative:pokemon game\\pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|c:\\school\\2e jaar\\pokemon-fighting-simulator\\pokemon game\\pokemon_subclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|solutionrelative:pokemon game\\pokemon_subclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0C1294E0-7743-4737-AE76-4A28B39A7D9A}|Pokemon game\\Pokemon game.csproj|c:\\school\\2e jaar\\pokemon-fighting-simulator\\pokemon game\\trainer_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,8 +30,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Pokemon_subclasses.cs",
+              "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs",
+              "RelativeDocumentMoniker": "Pokemon game\\Pokemon_subclasses.cs",
+              "ToolTip": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs",
+              "RelativeToolTip": "Pokemon game\\Pokemon_subclasses.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAYwBIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-13T14:58:43.059Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -36,46 +53,47 @@
               "RelativeDocumentMoniker": "Pokemon game\\Project.cs",
               "ToolTip": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Project.cs",
               "RelativeToolTip": "Pokemon game\\Project.cs",
-              "ViewState": "AgIAADkAAAAAAAAAAAAAAEcAAAApAAAAAAAAAA==",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAAAFQAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "OverriddenGroupName": "Pokemon game",
               "WhenOpened": "2025-02-12T14:40:51.544Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "Pokeball_class.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs",
               "RelativeDocumentMoniker": "Pokemon game\\Pokeball_class.cs",
               "ToolTip": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs",
               "RelativeToolTip": "Pokemon game\\Pokeball_class.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAmwBkAAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAABAAAAAAAAAAAAAvwBoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T13:57:07.985Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Pokemon_class.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_class.cs",
               "RelativeDocumentMoniker": "Pokemon game\\Pokemon_class.cs",
               "ToolTip": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_class.cs",
               "RelativeToolTip": "Pokemon game\\Pokemon_class.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBwAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAgAAAC0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T13:25:45.859Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "Trainer_class.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Trainer_class.cs",
               "RelativeDocumentMoniker": "Pokemon game\\Trainer_class.cs",
               "ToolTip": "C:\\school\\2e jaar\\Pokemon-fighting-simulator\\Pokemon game\\Trainer_class.cs",
               "RelativeToolTip": "Pokemon game\\Trainer_class.cs",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAkwDEAAAAEAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCcAAAAbAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-12T13:19:19.739Z",
               "EditorCaption": ""

@@ -24,7 +24,7 @@ namespace Pokemon_battle_simulator
             {
                 IsOpen = true;
                 Console.WriteLine(ContainedPokemon.naam + " does a battle cry ");
-                Pokemon.battlecry(ContainedPokemon.naam + "!!!!");
+                ContainedPokemon.battlecry();
             }
             else
             {

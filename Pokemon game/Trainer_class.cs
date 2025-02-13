@@ -16,13 +16,39 @@ namespace Pokemon_battle_simulator
             this.name = name;
             belt = new List<pokeball>();
 
-            for (int i = 0; i < 6; i++)
-            {
-                belt.Add(new pokeball(new Pokemon("Charmander", "Fire", "Water", 10, 4)));
-            }
+            addPokemonToBelt("Charmander", 2);
+            addPokemonToBelt("Squirtle", 2);
+            addPokemonToBelt("Bulbasaur", 2);
+
+
         }
 
+        private void addPokemonToBelt(string Pokemontype, int count)
+        {
+            for (int i = 0; i < count; i++) 
+            {
+                switch (Pokemontype.ToLower())
+                {
+                    case "charmander":
+                        belt.Add(new pokeball(new Charmander("Charmander " + i)));
+                        break;
 
+                    case "squirtle":
+                        belt.Add(new pokeball(new Squirtle("Squirtle " +i)));
+                        break;
+
+                    case "bulbasaur":
+                        belt.Add(new pokeball(new Bulbasaur("Bulbasaur " + i)));
+                        break;
+
+                    default:
+                        Console.WriteLine("Pokemon not found unknown type");
+                        break;
+                        
+
+                     }
+                }
+            }
         public void ThrowPokeball(int index)
         {
             if (index >= 0 && index < belt.Count)
