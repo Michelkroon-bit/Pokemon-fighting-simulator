@@ -3,9 +3,9 @@ using System.Reflection.Metadata;
 using System.Xml.Linq;
 using Pokemons;
 
-//var Charmander = new Pokemon("Testing", "Water", "Fire" ,15 , 7);
+//var Charmander = new Pokemon("Testing", "Water", "Fire" ,15 , 7); buggy af
 /*
-4. The player can give a new name to the same charmander.
+4. The player can give a new name to the same charmander. ja isg
 
 6. Repeat 4 and 5 until the player quits the game.
  */

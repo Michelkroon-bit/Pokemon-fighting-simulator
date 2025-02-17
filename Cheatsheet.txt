@@ -8,3 +8,15 @@ Well Objects are reusable and can be used in different ways for example for stor
 
 What's the difference between a class and an object?
 A class is used to define the structural basis and behavior of objects while objects are mostly used for representing different specific entity's in your program classes are also typically defined once while each is a unique class instance 
+
+
+What is compostion?
+compostion refers to combining smaller, reusable components to build more complex systems. It emphasizes on making code reusable and making code more maintainable and scalable. a few examples are making a python function for one part of your program and as dry as possible so it could also be used in a different program
+
+Why do we use composition?
+to keep your code/program so dry as possible it keeps it clean and maintainable as well as easy to use in other programs for instance if you make a simple calculationg function in python you can use it in multiple programs which avoids you using more code then needed it also helps you code more efficiently 
+
+How do we use composition in our code?
+in c#: by creating one void/ function for one component in your code example (public void throw for trowing the pokeball this is one block of code that you dont have to rewrite over and over again)
+
+in python: by also creating functions like a calulation function which can be used over multiple projects so you dont have to write it again and again you can just use function_name(parameter) instead of typing the whole thing out every time
