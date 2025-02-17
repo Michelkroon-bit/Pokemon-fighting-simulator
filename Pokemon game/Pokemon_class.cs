@@ -31,14 +31,8 @@ namespace Pokemon_battle_simulator
             this.HP = HP;
             this.Atk = Atk;
         }
-<<<<<<< HEAD:Pokemon game/Class1.cs
-        public static void battlecry(string name)
-        {
-            Console.WriteLine(name + "!!!!");
-            Thread.Sleep(1000);
-        }
-=======
+
         public abstract void battlecry();
->>>>>>> Opdracht2:Pokemon game/Pokemon_class.cs
+
     }
 }
