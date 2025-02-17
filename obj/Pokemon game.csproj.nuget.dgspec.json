@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj": {}
+    "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game.csproj": {}
   },
   "projects": {
-    "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj": {
+    "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj",
+        "projectUniqueName": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game.csproj",
         "projectName": "Pokemon game",
-        "projectPath": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj",
+        "projectPath": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game.csproj",
         "packagesPath": "C:\\Users\\Miche\\.nuget\\packages\\",
-        "outputPath": "C:\\school\\2e jaar\\Pokemon game\\obj\\",
+        "outputPath": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.102/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.103/PortableRuntimeIdentifierGraph.json"
         }
       }
     }
