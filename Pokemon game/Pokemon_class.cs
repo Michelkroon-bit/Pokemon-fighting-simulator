@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Pokemon_battle_simulator;
+using pokemon_battle_simulator;
 
 /*notes
 Abstract classes are like blueprints for other classes. You can't create an object directly from an abstract class, but you can create objects from classes that "inherit" from it. 
@@ -11,7 +11,7 @@ Abstract classes are like blueprints for other classes. You can't create an obje
 
 
 
-namespace Pokemon_battle_simulator
+namespace pokemon_battle_simulator
 {
     public abstract class Pokemon
 

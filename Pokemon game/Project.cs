@@ -3,7 +3,7 @@ using System.Text;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
-using Pokemon_battle_simulator;
+using pokemon_battle_simulator;
 
 
 

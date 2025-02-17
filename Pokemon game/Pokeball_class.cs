@@ -3,8 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Pokemons;
-
+using pokemon_battle_simulator;
 
 namespace Pokemon_battle_simulator
 {
