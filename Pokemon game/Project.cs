@@ -5,8 +5,6 @@ using System.Reflection.Metadata;
 using System.Xml.Linq;
 using Pokemon_battle_simulator;
 
-
-
 Console.ForegroundColor = ConsoleColor.Blue;
 
 Console.WriteLine(@"                                  ,'\
