@@ -4,15 +4,20 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+using Trainer_class;
+using Pokemon_subclasses;
+using Arena_class;
+using battle_class;
+using Pokeball_class;
 
-namespace Pokemon_battle_simulator
+namespace Pokeball_class
 {
     public class pokeball
     {
-        public Pokemon? ContainedPokemon { get; private set; }
+        public Pokemon_class.Pokemon ContainedPokemon { get; private set; }
         public bool IsOpen { get; private set; }
 
-        public pokeball(Pokemon pokemon)
+        public pokeball(Pokemon_class.Pokemon pokemon)
         {
             ContainedPokemon = pokemon;
             IsOpen = false;

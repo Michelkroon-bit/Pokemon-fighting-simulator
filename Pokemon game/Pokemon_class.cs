@@ -3,7 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Pokemon_battle_simulator;
+
+using Pokeball_class;
+using Trainer_class;
+using Pokemon_subclasses;
+using Arena_class;
+using battle_class;
+
 
 /*notes
 Abstract classes are like blueprints for other classes. You can't create an object directly from an abstract class, but you can create objects from classes that "inherit" from it. 
@@ -11,28 +17,29 @@ Abstract classes are like blueprints for other classes. You can't create an obje
 
 
 
-namespace Pokemon_battle_simulator
+namespace Pokemon_class;
+
+public abstract class Pokemon 
+
 {
-    public abstract class Pokemon 
+    public string naam { get; set; }
 
+    public string strength { get; set; }
+    public string weakness  { get; set; }
+    public int HP { get; set; }
+    public int Atk { get; set; }    
+
+   
+
+    public Pokemon(string naam ,string strength , string weakness , int HP , int Atk ) 
     {
-        public string naam { get; set; }
-        public string strength { get; set; }
-        public string weakness  { get; set; }
-        public int HP { get; set; }
-        public int Atk { get; set; }
-
-
-        public Pokemon(string naam ,string strength , string weakness , int HP , int Atk) 
-        {
-            this.naam = naam;
-            this.strength = strength;
-            this.weakness = weakness;
-            this.HP = HP;
-            this.Atk = Atk;
-        }
-
-        public abstract void battlecry();
-
+        this.naam = naam;
+        this.strength = strength;
+        this.weakness = weakness;
+        this.HP = HP;
+        this.Atk = Atk;
     }
+
+    public abstract void battlecry();
+
 }
