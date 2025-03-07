@@ -21,6 +21,8 @@ namespace battle_class
         private Pokemon currentPokemon1;
         private Pokemon currentPokemon2;
         private Pokemon pokemon_removed;
+        private Pokemon previous_pokemon1;
+        private Pokemon previous_pokemon2;
         public Battle(trainer t1, trainer t2)
         {
             trainer1 = t1;
@@ -73,7 +75,7 @@ namespace battle_class
         {
 
 
-            Console.WriteLine(currentPokemon1.naam + " Attacks " + currentPokemon2.naam);
+            Console.WriteLine(currentPokemon1.naam + " VS " + currentPokemon2.naam);
             string winner = check_for_weakness(currentPokemon1, currentPokemon2);
 
 
@@ -130,8 +132,19 @@ namespace battle_class
             {
                 Console.WriteLine(currentPokemon1.naam + " Used a " + currentPokemon1.strength + " Attack.\n");
                 Console.WriteLine("its a tie both pokemons will be returned to their pokeballs\n");
+                previous_pokemon1 = currentPokemon1;
+                previous_pokemon2 = currentPokemon2;
+
                 currentPokemon1 = trainer1.GetRandomPokemon("Trainer: " + trainer1.name);
                 currentPokemon2 = trainer2.GetRandomPokemon("Trainer: " + trainer2.name);
+                if(currentPokemon1 == previous_pokemon1)
+                {
+                    currentPokemon1 = trainer1.GetRandomPokemon("Trainer: " + trainer1.name);
+                }
+                else if (currentPokemon2 == previous_pokemon2)
+                {
+                    currentPokemon2 = trainer2.GetRandomPokemon("Trainer: " + trainer2.name);
+                }
             }
 
             Console.ReadKey();

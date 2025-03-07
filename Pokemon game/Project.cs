@@ -11,7 +11,7 @@ using battle_class;
 using Pokeball_class;
 using Arena_class;
 
-Console.ForegroundColor = ConsoleColor.Blue;
+Console.ForegroundColor = ConsoleColor.Yellow;
 
 Console.WriteLine(@"                                  ,'\
     _.----.        ____         ,'  _\   ___    ___     ____
@@ -24,7 +24,9 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
       \    \ \      /       `-.`.___,-' |  |\  /| \      /  | |   |
        \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |
         \_.-'       |__|    `-._ |              '-.|     '-.| |   |
-                                `'                            '-._|",Console.ForegroundColor);
+                                `'                            '-._|
+
+",Console.ForegroundColor);
 
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Hello traveler welcome to the pokemon battle simulator" , Console.ForegroundColor);
@@ -61,4 +63,17 @@ NamePokemons(trainer1);
 NamePokemons(trainer2);
 
 //Battle battle = new Battle(trainer1, trainer2);
+
 arena_class.StartBattle(trainer1, trainer2);
+Console.WriteLine("Would you like to play again y/n");
+string play_again = Console.ReadLine();
+if (play_again == "Y")
+{
+    arena_class.StartBattle(trainer1, trainer2);
+}
+else
+{
+    Console.WriteLine("Thanks for playing");
+}
+
+
