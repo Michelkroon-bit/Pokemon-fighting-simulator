@@ -3,15 +3,20 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Pokemon_battle_simulator;
 
-namespace Pokemon_battle_simulator
+using Trainer_class;
+using Pokemon_class;
+using battle_class;
+using Pokeball_class;
+using Arena_class;
+
+namespace Pokemon_subclasses
 {   
 
     // a charmander subclass with a custom overwrite battle cry 
-    public class Charmander : Pokemon //Charmander subclass
+    public class Charmander : Pokemon_class.Pokemon //Charmander subclass
     {
-        public Charmander(string naam) : base(naam, "Fire", "grass", 25, 6)
+        public Charmander(string naam) : base(naam, "Fire", "Water", 25, 16 )
         {
         }
         public override void battlecry()///By overriding, you ensure that each Pokemon has its own special way of shouting its battle cry
@@ -25,7 +30,7 @@ namespace Pokemon_battle_simulator
     {
 
         // a Bulbasaur subclass with a custom overwrite battle cry 
-        public Bulbasaur(string naam) : base(naam, "Grass", "Fire", 20, 4)
+        public Bulbasaur(string naam) : base(naam, "Grass", "Fire", 20, 14 )
         {
         }
         public override void battlecry()
@@ -40,7 +45,7 @@ namespace Pokemon_battle_simulator
 
         // a Squirtle subclass with a custom overwrite battle cry 
 
-        public Squirtle(string naam) : base(naam, "Water", "grass", 15, 5)
+        public Squirtle(string naam) : base(naam, "Water", "Grass", 25, 15)
         {
         }
         public override void battlecry()

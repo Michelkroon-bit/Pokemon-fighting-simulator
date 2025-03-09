@@ -3,9 +3,15 @@ using System.Text;
 using System.Numerics;
 using System.Reflection.Metadata;
 using System.Xml.Linq;
-using Pokemon_battle_simulator;
 
-Console.ForegroundColor = ConsoleColor.Blue;
+using Trainer_class;
+using Pokemon_subclasses;
+using Pokemon_class;
+using battle_class;
+using Pokeball_class;
+using Arena_class;
+
+Console.ForegroundColor = ConsoleColor.Yellow;
 
 Console.WriteLine(@"                                  ,'\
     _.----.        ____         ,'  _\   ___    ___     ____
@@ -18,18 +24,20 @@ _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
       \    \ \      /       `-.`.___,-' |  |\  /| \      /  | |   |
        \    \ `.__,'|  |`-._    `|      |__| \/ |  `.__,'|  | |   |
         \_.-'       |__|    `-._ |              '-.|     '-.| |   |
-                                `'                            '-._|",Console.ForegroundColor);
+                                `'                            '-._|
+
+",Console.ForegroundColor);
 
 Console.ForegroundColor = ConsoleColor.White;
 Console.WriteLine("Hello traveler welcome to the pokemon battle simulator" , Console.ForegroundColor);
 Console.WriteLine("Press enter to continue... ");
 Console.ReadKey();
 
-Console.Write("Trainer 1, please enter your username: ");
+Console.Write("Trainer 1, please enter your username: \n");
 string trainerName1 = Console.ReadLine();
 var trainer1 = new trainer(trainerName1);
 
-Console.Write("Trainer 2, please enter your username: ");
+Console.Write("Trainer 2, please enter your username: \n");
 string trainerName2 = Console.ReadLine();
 var trainer2 = new trainer(trainerName2);
 
@@ -47,53 +55,25 @@ void NamePokemons(trainer trainer)
         string pokemonName = Console.ReadLine();
 
         currentpokemon.naam = pokemonName;
-        Console.WriteLine("Your"+ currentpokemon.GetType().Name +"#" + i + " is now named: " + currentpokemon.naam);
+        Console.WriteLine("Your "+ currentpokemon.GetType().Name +"#" + i + " is now named: " + currentpokemon.naam);
 
     }
 };
 NamePokemons(trainer1);
 NamePokemons(trainer2);
 
-while (true)
+//Battle battle = new Battle(trainer1, trainer2);
+
+arena_class.StartBattle(trainer1, trainer2);
+Console.WriteLine("Would you like to play again y/n");
+string play_again = Console.ReadLine();
+if (play_again == "Y")
 {
-    Console.WriteLine("\nThe battle begins now \n");
+    arena_class.StartBattle(trainer1, trainer2);
+}
+else
+{
+    Console.WriteLine("Thanks for playing");
+}
 
-    for (int round = 1; round <= 6; round++)
-    {
 
-
-        Console.WriteLine(trainer1.name + " throws their pokeball\n");
-        var pokeballs_player_1 = trainer1.belt[round-1];
-        pokeballs_player_1.Throw();
-        Console.ReadLine();
-
-        Console.WriteLine(trainer2.name + " throws their Pokéball!\n");
-        var pokeballs_player_2 = trainer2.belt[round-1];
-        pokeballs_player_2.Throw();
-        Console.ReadLine();
-
-        Console.WriteLine(trainer1.name + " has returned it's pokémon to their Pokéball.\n");
-        pokeballs_player_1.ReturnPokemon();
-        Console.ReadLine();
-
-        Console.WriteLine(trainer2.name + " has returned it's pokémon to their Pokéball.\n");
-        pokeballs_player_2.ReturnPokemon();
-
-        Console.WriteLine("Round "+ round + " ended\n");
-        Thread.Sleep(500);
-    };
-
-    Console.WriteLine("\nPress Enter to replay, type 'X' to quit.\n");
-    string input_keep_playing = Console.ReadLine();
-
-    if (input_keep_playing.ToUpper() == "X")
-    {
-        Console.WriteLine("Thanks for playing :)");
-        Thread.Sleep(1500);
-        break;
-    }
-    else
-    {
-        Console.WriteLine("Restarting Battle...");
-    }
-};
