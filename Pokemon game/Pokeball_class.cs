@@ -10,7 +10,7 @@ namespace Pokemon_battle_simulator
     public class pokeball
     {
         public Pokemon? ContainedPokemon { get; private set; }
-        public bool IsOpen { get; private set; }
+        public bool IsOpen { get;  set; }
 
         public pokeball(Pokemon pokemon)
         {
@@ -30,12 +30,13 @@ namespace Pokemon_battle_simulator
             {
                 Console.WriteLine("The Pokéball is empty or already open");
             }
+
         }
         public void ReturnPokemon()
         {
             if (IsOpen && ContainedPokemon != null)
             {
-                IsOpen = false;
+                //IsOpen = false;
                    
             }
             else

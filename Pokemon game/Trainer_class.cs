@@ -10,7 +10,7 @@ namespace Pokemon_battle_simulator
     {
         public string name { get; set; }
         public List<pokeball> belt { get;  set; }
-
+       
         public trainer(string name)
         {
             this.name = name;
@@ -19,9 +19,13 @@ namespace Pokemon_battle_simulator
             addPokemonToBelt("Charmander", 2);
             addPokemonToBelt("Squirtle", 2);
             addPokemonToBelt("Bulbasaur", 2);
+            
+            
 
 
         }
+        
+        
 
         private void addPokemonToBelt(string Pokemontype, int count)
         {
@@ -54,6 +58,8 @@ namespace Pokemon_battle_simulator
             if (index >= 0 && index < belt.Count)
             {
                 belt[index].Throw();
+                
+                
             }
             else
             {
