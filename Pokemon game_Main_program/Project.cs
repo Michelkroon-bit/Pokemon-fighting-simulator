@@ -54,8 +54,8 @@ void NamePokemons(trainer trainer)
         Console.WriteLine(currentpokemon.GetType().Name+ " #"+i + " ,give it a name:");
         string pokemonName = Console.ReadLine();
 
-        currentpokemon.naam = pokemonName;
-        Console.WriteLine("Your "+ currentpokemon.GetType().Name +"#" + i + " is now named: " + currentpokemon.naam);
+        currentpokemon.Nickname = pokemonName;
+        Console.WriteLine("Your "+ currentpokemon.GetType().Name +"#" + i + " is now named: " + currentpokemon.Name);
 
     }
 };

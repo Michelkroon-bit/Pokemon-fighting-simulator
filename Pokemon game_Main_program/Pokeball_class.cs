@@ -28,7 +28,7 @@ namespace Pokeball_class
             if (ContainedPokemon != null && !IsOpen)
             {
                 IsOpen = true;
-                Console.WriteLine(ContainedPokemon.naam + " does a battle cry ");
+                Console.WriteLine(ContainedPokemon.Name + " does a battle cry ");
                 ContainedPokemon.battlecry();
             }
             else

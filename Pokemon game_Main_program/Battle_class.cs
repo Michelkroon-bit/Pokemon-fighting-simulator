@@ -31,16 +31,15 @@ namespace battle_class
 
         private string check_for_weakness(Pokemon pokemonA, Pokemon pokemonB)
         {
-            if ((pokemonA.strength == "Fire" && pokemonB.weakness == "Grass") ||
-                (pokemonA.strength == "Grass" && pokemonB.weakness == "Water") ||
-                (pokemonA.strength == "Water" && pokemonB.weakness == "Fire"))
+            if ((pokemonA.Strength == strengthlevels.Fire && pokemonB.Weakness == weaknesslevels.Grass) ||
+                (pokemonA.Strength == strengthlevels.Water && pokemonB.Weakness == weaknesslevels.Fire)||
+                (pokemonA.Strength == strengthlevels.Grass&& pokemonB.Weakness == weaknesslevels.Water))
             {
                 return "Player 1";
             }
-            else if
-                ((pokemonB.strength == "Fire" && pokemonA.weakness == "Grass") ||
-                (pokemonB.strength == "Grass" && pokemonA.weakness == "Water") ||
-                (pokemonB.strength == "Water" && pokemonA.weakness == "Fire"))
+            else if ((pokemonB.Strength == strengthlevels.Fire && pokemonA.Weakness == weaknesslevels.Grass) ||
+                (pokemonB.Strength == strengthlevels.Water && pokemonA.Weakness == weaknesslevels.Fire) ||
+                (pokemonB.Strength == strengthlevels.Grass && pokemonA.Weakness == weaknesslevels.Water))
             {
                 return "Player 2";
             }
@@ -75,14 +74,14 @@ namespace battle_class
         {
 
 
-            Console.WriteLine(currentPokemon1.naam + " VS " + currentPokemon2.naam);
+            Console.WriteLine(currentPokemon1.Nickname + " VS " + currentPokemon2.Nickname);
             string winner = check_for_weakness(currentPokemon1, currentPokemon2);
 
 
             if (winner == "Player 1")
             {
                 
-                Console.WriteLine(currentPokemon1.naam + " Used a " + currentPokemon1.strength + " Attack.\n");
+                Console.WriteLine(currentPokemon1.Nickname + " Used " + currentPokemon1.attackname + ".\n");
                 Console.WriteLine("Congratulations " + trainer1.name + " won the battle\n");
 
 
@@ -91,7 +90,7 @@ namespace battle_class
                 currentPokemon2 = trainer2.GetRandomPokemon("Trainer: " + trainer1.name); // pick another pokemon from the belt 
 
 
-                Console.WriteLine("Removing " + pokemon_removed.naam + " from " + trainer2.name + "'s belt.\n");
+                Console.WriteLine("Removing " + pokemon_removed.Nickname + " from " + trainer2.name + "'s belt.\n");
                 
                 pokeball pokeballToRemove = trainer2.belt.FirstOrDefault(pokeball => pokeball.ContainedPokemon == pokemon_removed); // removing the pokemon that exists in the pokemon_removed variable
                 if(pokeballToRemove != null)
@@ -109,7 +108,7 @@ namespace battle_class
             else if (winner == "Player 2")
             {
                 
-                Console.WriteLine(currentPokemon2.naam + " Used a " + currentPokemon2.strength + " Attack.\n");
+                Console.WriteLine(currentPokemon2.Nickname + " Used " + currentPokemon2.attackname + ".\n");
                 Console.WriteLine("Congratulations " + trainer2.name + " won the battle\n");
                 
                 pokemon_removed = currentPokemon1; // add the defeated pokemon to the pokemon_removed variable to be removed
@@ -117,7 +116,7 @@ namespace battle_class
 
                 currentPokemon1 = trainer1.GetRandomPokemon("Trainer: " + trainer1.name); // pick another pokemon from the belt 
 
-                Console.WriteLine("Removing " + pokemon_removed.naam + " from " + trainer1.name + "'s belt.\n");
+                Console.WriteLine("Removing " + pokemon_removed.Nickname + " from " + trainer1.name + "'s belt.\n");
 
                 pokeball pokeballToRemove = trainer1.belt.FirstOrDefault(pokeball => pokeball.ContainedPokemon == pokemon_removed); // removing the pokemon that exists in the pokemon_removed variable
                 if (pokeballToRemove != null)
@@ -130,7 +129,7 @@ namespace battle_class
             }
             else
             {
-                Console.WriteLine(currentPokemon1.naam + " Used a " + currentPokemon1.strength + " Attack.\n");
+                Console.WriteLine(currentPokemon1.Nickname + " Used " + currentPokemon1.attackname + ".\n");
                 Console.WriteLine("its a tie both pokemons will be returned to their pokeballs\n");
                 previous_pokemon1 = currentPokemon1;
                 previous_pokemon2 = currentPokemon2;

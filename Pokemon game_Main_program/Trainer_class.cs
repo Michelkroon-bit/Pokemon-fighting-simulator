@@ -17,8 +17,8 @@ namespace Trainer_class
 
     public class trainer
     {
-        public string name { get; set; }
-        public List<pokeball> belt { get; set; }
+        public string name { get; private set; }
+        public List<pokeball> belt { get; private set; }
 
         public trainer(string name)
         {
@@ -29,7 +29,7 @@ namespace Trainer_class
             addPokemonToBelt("Squirtle", 2);
             addPokemonToBelt("Bulbasaur", 2);
 
-
+            
         }
 
         private void addPokemonToBelt(string Pokemontype, int count)
@@ -85,11 +85,9 @@ namespace Trainer_class
         }
         public bool haspokemonleft()
         {
-            belt.RemoveAll(pokemon => pokemon.ContainedPokemon.HP <= 0);
             if (belt.Count > 0)
             {
                 return true;
-
             }
             else
             {

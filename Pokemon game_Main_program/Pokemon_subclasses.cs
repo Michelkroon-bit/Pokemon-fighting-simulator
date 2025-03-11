@@ -16,12 +16,12 @@ namespace Pokemon_subclasses
     // a charmander subclass with a custom overwrite battle cry 
     public class Charmander : Pokemon_class.Pokemon //Charmander subclass
     {
-        public Charmander(string naam) : base(naam, "Fire", "Water", 25, 16 )
+        public Charmander(string naam) : base(naam, strengthlevels.High, weaknesslevels.Low, 25, 16 , "Fireblast")
         {
         }
         public override void battlecry()///By overriding, you ensure that each Pokemon has its own special way of shouting its battle cry
         {
-            Console.WriteLine(naam + " shouts: Char, Char!");
+            Console.WriteLine(Name + " shouts: Char, Char!");
         }
     }
 
@@ -30,12 +30,12 @@ namespace Pokemon_subclasses
     {
 
         // a Bulbasaur subclass with a custom overwrite battle cry 
-        public Bulbasaur(string naam) : base(naam, "Grass", "Fire", 20, 14 )
+        public Bulbasaur(string naam) : base(naam, strengthlevels.Middle, weaknesslevels.High, 20, 14 , "Leafslap")
         {
         }
         public override void battlecry()
         {
-            Console.WriteLine(naam + " shouts: Bulba, Bulba!");
+            Console.WriteLine(Name + " shouts: Bulba, Bulba!");
         }
     }
 
@@ -45,12 +45,12 @@ namespace Pokemon_subclasses
 
         // a Squirtle subclass with a custom overwrite battle cry 
 
-        public Squirtle(string naam) : base(naam, "Water", "Grass", 25, 15)
+        public Squirtle(string naam) : base(naam, strengthlevels.Middle, weaknesslevels.High, 25, 15, "Waterstorm")
         {
         }
         public override void battlecry()
         {
-            Console.WriteLine(naam + " shouts: Squirtle, Squirtle!");
+            Console.WriteLine(Name + " shouts: Squirtle, Squirtle!");
         }
     }
 };
