@@ -12,52 +12,54 @@ namespace Pokemon_battle_simulator
     {
         private trainer trainer1;
         private trainer trainer2;
+        private Random rnd = new Random();
 
-       
         public Battle(trainer trainer1, trainer trainer2)
         {
             this.trainer1 = trainer1;
             this.trainer2 = trainer2;
-            
-               
-            Random rnd = new();
-           
 
             while (true)
             {
-                Console.WriteLine("\nThe battle begins now \n");
-                int Randomt1 = rnd.Next(1, 6);
+                Console.WriteLine("\nThe battle begins now!\n");
 
                 for (int round = 1; round <= 6; round++)
                 {
+                    int Randomt1, Randomt2;
 
+                   
+                    do
+                    {
+                        Randomt1 = rnd.Next(0, 6);
+                    } while (trainer1.belt[Randomt1].IsUsed);
 
-                    Console.WriteLine(trainer1.name + " throws their pokeball\n");
-                  
+                    Console.WriteLine(trainer1.name + " throws their Pokéball!\n");
                     var pokeballs_player_1 = trainer1.belt[Randomt1];
-
                     pokeballs_player_1.Throw();
                     Console.ReadLine();
 
+                  
+                    do
+                    {
+                        Randomt2 = rnd.Next(0, 6);
+                    } while (trainer2.belt[Randomt2].IsUsed);
+
                     Console.WriteLine(trainer2.name + " throws their Pokéball!\n");
-                    var pokeballs_player_2 = trainer2.belt[rnd.Next(1, 6)];
+                    var pokeballs_player_2 = trainer2.belt[Randomt2];
                     pokeballs_player_2.Throw();
                     Console.ReadLine();
 
-            
-              
-
-
-                Console.WriteLine(trainer1.name + " has returned it's pokémon to their Pokéball.\n");
+                 
+                    Console.WriteLine(trainer1.name + " has returned its Pokémon to their Pokéball.\n");
                     pokeballs_player_1.ReturnPokemon();
                     Console.ReadLine();
 
-                    Console.WriteLine(trainer2.name + " has returned it's pokémon to their Pokéball.\n");
+                    Console.WriteLine(trainer2.name + " has returned its Pokémon to their Pokéball.\n");
                     pokeballs_player_2.ReturnPokemon();
 
                     Console.WriteLine("Round " + round + " ended\n");
                     Thread.Sleep(500);
-                };
+                }
 
                 Console.WriteLine("\nPress Enter to replay, type 'X' to quit.\n");
                 string input_keep_playing = Console.ReadLine();
@@ -71,9 +73,10 @@ namespace Pokemon_battle_simulator
                 else
                 {
                     Console.WriteLine("Restarting Battle...");
+                    
+                 
                 }
-            };
+            }
         }
     }
 }
-

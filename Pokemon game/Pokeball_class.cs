@@ -10,7 +10,8 @@ namespace Pokemon_battle_simulator
     public class pokeball
     {
         public Pokemon? ContainedPokemon { get; private set; }
-        public bool IsOpen { get;  set; }
+        public bool IsOpen { get; private set; }
+        public bool IsUsed { get; private set; }
 
         public pokeball(Pokemon pokemon)
         {
@@ -18,11 +19,21 @@ namespace Pokemon_battle_simulator
             IsOpen = false;
         }
 
+     
+
         public void Throw()
         {
             if (ContainedPokemon != null && !IsOpen)
             {
+                if (!IsUsed)
+                {
+                    IsOpen = true;
+                    IsUsed = true;
+                   
+                }
+
                 IsOpen = true;
+                Console.WriteLine(ContainedPokemon.strength + " is its type ");
                 Console.WriteLine(ContainedPokemon.naam + " does a battle cry ");
                 ContainedPokemon.battlecry();
             }
@@ -36,8 +47,8 @@ namespace Pokemon_battle_simulator
         {
             if (IsOpen && ContainedPokemon != null)
             {
-                //IsOpen = false;
-                   
+                IsOpen = false;
+
             }
             else
             {

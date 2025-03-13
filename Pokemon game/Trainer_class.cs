@@ -24,8 +24,11 @@ namespace Pokemon_battle_simulator
 
 
         }
+
         
-        
+
+
+
 
         private void addPokemonToBelt(string Pokemontype, int count)
         {

@@ -7,7 +7,8 @@ using Pokemon_battle_simulator;
 
 Console.ForegroundColor = ConsoleColor.Blue;
 
-Console.WriteLine(@"                                  ,'\
+Console.WriteLine(@"                                  
+                                  ,'\
     _.----.        ____         ,'  _\   ___    ___     ____
 _,-'       `.     |    |  /`.   \,-'    |   \  /   |   |    \  |`.
 \      __    \    '-.  | /   `.  ___    |    \/    |   '-.   \ |  |
@@ -32,8 +33,6 @@ var trainer1 = new trainer(trainerName1);
 Console.Write("Trainer 2, please enter your username: ");
 string trainerName2 = Console.ReadLine();
 var trainer2 = new trainer(trainerName2);
-
-//var Charmander = new Pokemon("Charmander", "Fire", "Water", 10, 4);
 
 
 void NamePokemons(trainer trainer)
