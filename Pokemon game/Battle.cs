@@ -19,6 +19,31 @@ namespace Pokemon_battle_simulator
             this.trainer1 = trainer1;
             this.trainer2 = trainer2;
 
+        void Battlezelf(string pkmtype1, string pkmtype2)
+        {
+            switch ((pkmtype1, pkmtype2))
+            {
+                case ("Fire", "Grass"):
+                    Console.WriteLine("Fire type wint");
+
+                    break;
+
+                case ("Water", "Fire"):
+                    Console.WriteLine("Water type wint");
+
+                    break;
+
+                case ("Grass", "Water"):
+                    Console.WriteLine("Grass type wint");
+
+                    break;
+
+                default:
+                    Console.WriteLine("Twee dezelfde types gelijkspel");
+                    break;
+            }
+        };
+
             while (true)
             {
                 Console.WriteLine("\nThe battle begins now!\n");
@@ -37,8 +62,7 @@ namespace Pokemon_battle_simulator
                     var pokeballs_player_1 = trainer1.belt[Randomt1];
                     pokeballs_player_1.Throw();
                     Console.ReadLine();
-
-                  
+  
                     do
                     {
                         Randomt2 = rnd.Next(0, 6);
@@ -49,7 +73,13 @@ namespace Pokemon_battle_simulator
                     pokeballs_player_2.Throw();
                     Console.ReadLine();
 
-                 
+                    var pkmtype1 = trainer1.belt[Randomt1].ContainedPokemon.strength;
+                    var pkmtype2 = trainer2.belt[Randomt2].ContainedPokemon.strength;
+                
+
+
+                    Battlezelf(pkmtype1, pkmtype2);
+
                     Console.WriteLine(trainer1.name + " has returned its Pokémon to their Pokéball.\n");
                     pokeballs_player_1.ReturnPokemon();
                     Console.ReadLine();

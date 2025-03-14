@@ -33,7 +33,6 @@ namespace Pokemon_battle_simulator
                 }
 
                 IsOpen = true;
-                Console.WriteLine(ContainedPokemon.strength + " is its type ");
                 Console.WriteLine(ContainedPokemon.naam + " does a battle cry ");
                 ContainedPokemon.battlecry();
             }
