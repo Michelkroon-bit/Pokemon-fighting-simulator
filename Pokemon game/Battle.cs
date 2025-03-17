@@ -37,10 +37,24 @@ namespace Pokemon_battle_simulator
                     Console.WriteLine("Grass type wint");
 
                     break;
+                case ("Grass", "Fire"):
+                    Console.WriteLine("Fire type wint");
+
+                    break;
+
+                case ("Fire", "Water"):
+                    Console.WriteLine("Water type wint");
+
+                    break;
+
+                case ("Water", "Grass"):
+                    Console.WriteLine("Grass type wint");
+
+                    break;
 
                 default:
-                    Console.WriteLine("Twee dezelfde types gelijkspel");
-                    break;
+                Console.WriteLine("Twee keer het type "+pkmtype1+" gelijkspel");
+                break;
             }
         };
 
@@ -96,15 +110,25 @@ namespace Pokemon_battle_simulator
 
                 if (input_keep_playing.ToUpper() == "X")
                 {
-                    Console.WriteLine("Thanks for playing :)");
-                    Thread.Sleep(1500);
-                    break;
+                   Console.WriteLine("Thanks for playing :)"); 
+                   Thread.Sleep(1500);
+                   break;
                 }
                 else
                 {
                     Console.WriteLine("Restarting Battle...");
-                    
-                 
+                    for (int i = 0; i < 6; i++)
+                    {
+                        trainer1.belt[i].ResetPokemon();
+                        trainer2.belt[i].ResetPokemon();
+                    }
+
+
+
+
+
+
+
                 }
             }
         }

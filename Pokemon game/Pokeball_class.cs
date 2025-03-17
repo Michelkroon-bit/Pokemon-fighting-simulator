@@ -29,7 +29,7 @@ namespace Pokemon_battle_simulator
                 {
                     IsOpen = true;
                     IsUsed = true;
-                   
+                 
                 }
 
                 IsOpen = true;
@@ -52,6 +52,19 @@ namespace Pokemon_battle_simulator
             else
             {
                 Console.WriteLine("No Pokémon to return or the Pokéball is already closed.");
+            }
+        }
+            
+        public void ResetPokemon()
+        {   
+            if (ContainedPokemon != null)
+            {
+                IsUsed = false;
+
+            }
+            else
+            {
+                Console.WriteLine("No Pokémon to return or the Pokéball has not been used yet.");
             }
         }
     }

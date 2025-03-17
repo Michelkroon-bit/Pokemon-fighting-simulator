@@ -6,12 +6,3 @@
 //using Pokemon_battle_simulator;
 
 //namespace Pokemon_battle_simulator
-//{
-
-//    Battle battle = new Battle(trainer1, trainer2);
-
-
-
-
-
-

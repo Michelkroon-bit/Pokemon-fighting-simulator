@@ -11,24 +11,24 @@
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Arena.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Battle.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Trainer_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Trainer_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pokemon_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pokemon_subclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Pokemon_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -52,7 +52,7 @@
               "RelativeDocumentMoniker": "Project.cs",
               "ToolTip": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Project.cs",
               "RelativeToolTip": "Project.cs",
-              "ViewState": "AgIAACYAAAAAAAAAAAAcwDoAAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAABEAAAAAAAAAAAAYwDgAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T08:09:59.961Z",
               "IsPinned": true,
@@ -60,34 +60,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Battle.cs",
               "DocumentMoniker": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Battle.cs",
               "RelativeDocumentMoniker": "Battle.cs",
               "ToolTip": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Battle.cs",
               "RelativeToolTip": "Battle.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAABwAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T10:53:40.838Z",
-              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Pokeball_class.cs",
               "DocumentMoniker": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs",
               "RelativeDocumentMoniker": "Pokeball_class.cs",
               "ToolTip": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs",
               "RelativeToolTip": "Pokeball_class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAYwD4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T08:13:50.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Pokemon_class.cs",
               "DocumentMoniker": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_class.cs",
               "RelativeDocumentMoniker": "Pokemon_class.cs",
@@ -100,7 +99,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "Pokemon_subclasses.cs",
               "DocumentMoniker": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs",
               "RelativeDocumentMoniker": "Pokemon_subclasses.cs",
@@ -119,7 +118,7 @@
               "RelativeDocumentMoniker": "Arena.cs",
               "ToolTip": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Arena.cs",
               "RelativeToolTip": "Arena.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-19T10:53:15.776Z",
               "EditorCaption": ""
@@ -132,7 +131,7 @@
               "RelativeDocumentMoniker": "Trainer_class.cs",
               "ToolTip": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game\\Trainer_class.cs",
               "RelativeToolTip": "Trainer_class.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADEAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-17T08:13:16.87Z",
               "EditorCaption": ""

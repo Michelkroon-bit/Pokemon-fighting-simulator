@@ -9,8 +9,6 @@ using Pokemon_battle_simulator;
 Abstract classes are like blueprints for other classes. You can't create an object directly from an abstract class, but you can create objects from classes that "inherit" from it. 
  */
 
-
-
 namespace Pokemon_battle_simulator
 {
     public abstract class Pokemon 
