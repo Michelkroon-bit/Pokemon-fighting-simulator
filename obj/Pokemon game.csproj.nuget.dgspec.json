@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj": {}
+    "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game.csproj": {}
   },
   "projects": {
-    "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj": {
+    "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj",
+        "projectUniqueName": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game.csproj",
         "projectName": "Pokemon game",
-        "projectPath": "C:\\school\\2e jaar\\Pokemon game\\Pokemon game.csproj",
-        "packagesPath": "C:\\Users\\Miche\\.nuget\\packages\\",
-        "outputPath": "C:\\school\\2e jaar\\Pokemon game\\obj\\",
+        "projectPath": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\Pokemon game.csproj",
+        "packagesPath": "C:\\Users\\lrava\\.nuget\\packages\\",
+        "outputPath": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Miche\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\lrava\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
