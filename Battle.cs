@@ -13,7 +13,7 @@ namespace Pokemon_battle_simulator
         private trainer trainer1;
         private trainer trainer2;
         private Random rnd = new Random();
-        int aantalrounds = 6;
+        public int aantalrondes = 6;
         public Battle(trainer trainer1, trainer trainer2)
         {
             this.trainer1 = trainer1;
@@ -63,14 +63,14 @@ namespace Pokemon_battle_simulator
             {
                 Console.WriteLine("\nThe battle begins now!\n");
 
-                for (int round = 1; round <= 6; round++)
+                for (int round = 1; round <= aantalrondes; round++)
                 {
                     int Randomt1, Randomt2;
 
                    
                     do
                     {
-                        Randomt1 = rnd.Next(0, 6);
+                        Randomt1 = rnd.Next(0, aantalrondes);
                     } while (trainer1.belt[Randomt1].IsUsed);
 
                     Console.WriteLine(trainer1.name + " throws their Pokéball!\n");
@@ -80,7 +80,7 @@ namespace Pokemon_battle_simulator
   
                     do
                     {
-                        Randomt2 = rnd.Next(0, 6);
+                        Randomt2 = rnd.Next(0, aantalrondes);
                     } while (trainer2.belt[Randomt2].IsUsed);
 
                     Console.WriteLine(trainer2.name + " throws their Pokéball!\n");
@@ -106,20 +106,8 @@ namespace Pokemon_battle_simulator
                     Thread.Sleep(500);
                 }
                 
-                //Console.WriteLine("\nPress Enter to replay, type 'X' to quit.\n");
-                //string input_keep_playing = Console.ReadLine();
-
-                //if (input_keep_playing.ToUpper() == "X")
-                //{
-                //   Console.WriteLine("Thanks for playing :)"); 
-                //   Thread.Sleep(1500);
-                //   break;
-                //}
-                //else
-                //{
-                //    Console.WriteLine("Restarting Battle...");
              
-                    for (int i = 0; i < 6; i++)
+                    for (int i = 0; i < aantalrondes; i++)
                     {
                         trainer1.belt[i].ResetPokemon();
                         trainer2.belt[i].ResetPokemon();

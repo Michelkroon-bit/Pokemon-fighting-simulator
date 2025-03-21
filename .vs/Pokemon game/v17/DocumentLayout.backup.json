@@ -3,6 +3,9 @@
   "WorkspaceRootPath": "C:\\school\\code\\Bovenbouw\\Pokemon-fighting-simulator\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -10,9 +13,6 @@
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Project.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,7 +30,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Project.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Project.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Project.cs",
@@ -41,7 +41,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Pokemon_subclasses.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Pokemon_subclasses.cs",
@@ -52,7 +52,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Trainer_class.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Trainer_class.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Trainer_class.cs",
@@ -63,7 +63,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Pokeball_class.cs",
               "DocumentMoniker": "C:\\school\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs",
               "RelativeDocumentMoniker": "..\\..\\..\\2e jaar\\Pokemon game\\Pokemon-fighting-simulator\\Pokemon game\\Pokeball_class.cs",
